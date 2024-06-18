@@ -12,6 +12,8 @@ curl:
   fetch-endpoint:
 
   curl -X GET "http://localhost:8080/api/user/fetch?username=testuser"
+
+Tests are written in the src/test/java/com/example/demo/service/UserServiceTest.java
   
 
 This is a simple Spring Boot application that provides user registration and user details fetching functionality.
